@@ -62,47 +62,75 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <hr />
-                <div className='sgvsrgvwrgv'>
-                    <b>
-                        <small>Septiembre</small>
-                    </b>
+                <div class='table-responsive sgvsrgvwrgv'>
+                    <table className='table table-bordered table-striped overflow-hidden'>
+                        <thead class='thead-dark'>
+                            <tr>
+                                <th colspan='3' scope='col'>
+                                    Septiembre
+                                </th>
+
+                                <th colspan='11' scope='col'>
+                                    Octubre
+                                </th>
+                            </tr>
+                        </thead>
+                        <thead class='thead-dark'>
+                            <tr>
+                                <th scope='col'>28</th>
+                                <th scope='col'>29</th>
+                                <th scope='col'>30</th>
+                                <th scope='col'>1</th>
+                                <th scope='col'>2</th>
+                                <th scope='col'>3</th>
+                                <th scope='col'>4</th>
+                                <th scope='col'>5</th>
+                                <th scope='col'>6</th>
+                                <th scope='col'>7</th>
+                                <th scope='col'>8</th>
+                                <th scope='col'>9</th>
+                                <th scope='col'>10</th>
+                                <th scope='col'>11</th>
+                            </tr>
+                        </thead>
+                        <thead class='thead-dark'>
+                            <tr>
+                                <th scope='col'>L</th>
+                                <th scope='col'>M</th>
+                                <th scope='col'>X</th>
+                                <th scope='col'>J</th>
+                                <th scope='col'>V</th>
+                                <th scope='col'>S</th>
+                                <th scope='col'>D</th>
+                                <th scope='col'>L</th>
+                                <th scope='col'>M</th>
+                                <th scope='col'>X</th>
+                                <th scope='col'>J</th>
+                                <th scope='col'>V</th>
+                                <th scope='col'>S</th>
+                                <th scope='col'>D</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>M</td>
+                                <td>M</td>
+                                <td>T</td>
+                                <td></td>
+                                <td></td>
+                                <td>N</td>
+                                <td>N</td>
+                                <td>M</td>
+                                <td>M</td>
+                                <td>T</td>
+                                <td></td>
+                                <td></td>
+                                <td>N</td>
+                                <td>N</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <table className='table table-bordered table-striped'>
-                    <thead class='thead-dark'>
-                        <tr>
-                            <th scope='col'>28</th>
-                            <th scope='col'>29</th>
-                            <th scope='col'>30</th>
-                            <th scope='col'>1</th>
-                            <th scope='col'>2</th>
-                            <th scope='col'>3</th>
-                            <th scope='col'>4</th>
-                        </tr>
-                    </thead>
-                    <thead class='thead-dark'>
-                        <tr>
-                            <th scope='col'>L</th>
-                            <th scope='col'>M</th>
-                            <th scope='col'>X</th>
-                            <th scope='col'>J</th>
-                            <th scope='col'>V</th>
-                            <th scope='col'>S</th>
-                            <th scope='col'>D</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>M</td>
-                            <td>M</td>
-                            <td>T</td>
-                            <td></td>
-                            <td></td>
-                            <td>N</td>
-                            <td>N</td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
         </div>
     );
